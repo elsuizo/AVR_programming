@@ -1,0 +1,8 @@
+Conections between arduino and the avr32
+
+arduino          Atmega32
+10 --------------> 9 Reset
+11 --------------> 6 MOSI
+12 --------------> 7 MISO
+13 --------------> 8 SCK
+
