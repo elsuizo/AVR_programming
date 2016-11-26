@@ -22,11 +22,7 @@ General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 ---------------------------------------------------------------------------*/
-
-#define F_CPU 1000000
-
-#include <avr/io.h>
-#include <util/delay.h>
+#include "../inc/main.h"
 
 int main(void)
 {
@@ -34,7 +30,7 @@ int main(void)
     while(1)
     {
         PORTB ^= (1 << PB4);
-        _delay_ms(2000);
+        _delay_ms(7000);
     }
     return 0 ;
 }
