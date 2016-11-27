@@ -30,7 +30,7 @@ int main(void)
     while(1)
     {
         PORTB ^= (1 << PB4);
-        _delay_ms(7000);
+        _delay_ms(3000);
     }
     return 0 ;
 }

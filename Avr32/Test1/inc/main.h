@@ -23,5 +23,6 @@ General Public License for more details.
 You should have received a copy of the GNU General Public License
 ---------------------------------------------------------------------------*/
 #include <avr/io.h>
+#define F_CPU 8000000UL  /* 8 Mhz */
 #include <util/delay.h>
 
