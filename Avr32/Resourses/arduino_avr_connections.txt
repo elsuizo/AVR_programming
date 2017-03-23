@@ -6,3 +6,5 @@ arduino          Atmega32
 12 --------------> 7 MISO
 13 --------------> 8 SCK
 
+Recall:10 uF capacitor between Arduino Reset Pin and Gnd Pin (+ve leg of capacitor should go to Reset pin) 
+
